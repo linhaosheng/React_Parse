@@ -1,0 +1,3 @@
+一 ： 先在 main 目录下新建 assets/index.android.bundle   和 assets/index.android.bundle.mate
+二 ： rn 项目 目录下 运行 
+react-native bundle —platform android —dev false —entry-file index.android.js —bundle-output ReactDemo/app/src/main/assets/index.android.bundle —sourcemap-outpu ReactDemo/app/src/main/assets/index.android.map —assets-dest ReactDemo/app/src/main/res/
